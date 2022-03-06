@@ -3,40 +3,40 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'What’s the number one ranked solution for fighting climate change?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Restore tropical forests', isCorrect: false },
+				{ answerText: 'Waste less water', isCorrect: false },
+				{ answerText: 'Manage Refrigerants', isCorrect: true },
+				{ answerText: 'Turning Off Lights', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'About how long does it take a Styrofoam cup to decompose?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: '2 months', isCorrect: false },
+				{ answerText: '10 years', isCorrect: false },
+				{ answerText: '150 years', isCorrect: false },
+                { answerText: '400 years', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'How many single-use plastic bottles are used in the UK every day?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: '15 million', isCorrect: false },
+				{ answerText: '21 million', isCorrect: false },
+				{ answerText: '38.5 million', isCorrect: true },
+				{ answerText: '50 million', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'How much water does it take, on average, to produce a pair of cotton jeans?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
-			],
+				{ answerText: '100 litres', isCorrect: false },
+				{ answerText: '1000 litres', isCorrect: false },
+				{ answerText: '5000 litres', isCorrect: false },
+				{ answerText: '10,000 litres', isCorrect: true },
+			]
 		},
 	];
 
